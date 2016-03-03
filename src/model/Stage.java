@@ -9,10 +9,33 @@ import java.util.List;
 
 /**
  *
- * @author Christophe
+ * @author Yannick - Abdourahman
  */
 public class Stage {
     private List<Session> listeSessions;
     private Agent directeur;
-    
+
+    public Stage() {
+    }
+
+    public Stage(List<Session> listeSessions, Agent directeur) {
+        setListeSessions(listeSessions);
+        setDirecteur(directeur);
+    }
+ 
+    public List<Session> getListeSessions() {
+        return listeSessions;
+    }
+
+    public Agent getDirecteur() {
+        return directeur;
+    }
+
+    public void setListeSessions(List<Session> listeSessions) {
+        this.listeSessions = listeSessions;
+    }
+
+    public void setDirecteur(Agent directeur) {
+        this.directeur = directeur;
+    }
 }

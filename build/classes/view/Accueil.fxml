@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" scaleShape="false" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="director" layoutX="-3.0" layoutY="1.0" mnemonicParsing="false" text="DIRECTEUR" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="student" layoutX="42.0" layoutY="147.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="99.0" text="APPRENANT" />
+      <Button fx:id="teacher" layoutX="42.0" layoutY="222.0" mnemonicParsing="false" text="FORMATEUR" />
+      <AnchorPane fx:id="listView" layoutX="186.0" layoutY="27.0" prefHeight="347.0" prefWidth="385.0" style="-fx-border-color: black;">
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </AnchorPane>
+   </children>
+</AnchorPane>
